@@ -7,8 +7,8 @@ Here is the css code:
 
 ```
 .inner{
-    position: absolute;
-    top:0;
+	position: absolute;
+	top:0;
 }
 
 .txt{
@@ -28,7 +28,7 @@ Here is the css code:
 	text-align: center;
 	z-index: 4;
 	right: 0;
-	color: #fff
+	color: #fff;
 }
 
 ```
