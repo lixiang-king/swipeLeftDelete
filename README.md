@@ -23,12 +23,12 @@ Here is the css code:
 }
 
 .del{
-    background-color: #e64340;
-    width: 180rpx;
-	 text-align: center;
-    z-index: 4;
-    right: 0;
-    color: #fff
+	background-color: #e64340;
+	width: 180rpx;
+	text-align: center;
+	z-index: 4;
+	right: 0;
+	color: #fff
 }
 
 ```
