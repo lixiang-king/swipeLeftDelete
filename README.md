@@ -3,7 +3,7 @@
 - 首先每个list-item通过**z-index**分为上下两层，上面一层放置正常内容，下面一层放置左滑显示出的内容
 - item的上层使用**绝对定位**，通过left的属性值来实现左右滑动
 
-Here is the css code:
+Here is the **css** code:
 
 ```
 .inner{
@@ -12,14 +12,14 @@ Here is the css code:
 }
 
 .txt{
-    background-color: #fff;
-    width: 100%;
-    z-index: 5;
-    padding:0 10rpx;
-    transition: left 0.2s ease-in-out;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow:ellipsis;
+	background-color: #fff;
+	width: 100%;
+	z-index: 5;
+	padding:0 10rpx;
+	transition: left 0.2s ease-in-out;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
 }
 
 .del{
@@ -35,7 +35,7 @@ Here is the css code:
 ## js
 - 通过[微信小程序api](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html)提供的touch对象和3个有关手指触摸的函数（touchstart，touchmove，touchend）来实现item随手指移动。
 
-Here is the js code
+Here is the **js** code
 
 ```
 touchS: function (e) {
